@@ -4,7 +4,7 @@ Assets
 An asset in Yii is a file that may be referenced in a Web page. It can be a CSS file, a JavaScript file, an image
 or video file, etc. Assets are located in Web-accessible directories and are directly served by Web servers.
 
-Ресурс в Yii это файл который может быть задан в Web странице. Это может быть CSS файл, JavaScript файл, изображение или видео файл и т.д. Ресурсы располагаются в Web доступных директориях и непосредственно обслуживаемые Web серверами.
+Ресурс в Yii это файл который может быть задан в Web странице. Это может быть CSS файл, JavaScript файл, изображение или видео файл и т.д. Ресурсы располагаются в Web доступных директориях<color=red> и непосредственно обслуживаемые Web серверами</color>.
 
 It is often preferable to manage assets programmatically. For example, when you use the [[yii\jui\DatePicker]] widget
 in a page, it will automatically include the required CSS and JavaScript files, instead of asking you to manually
