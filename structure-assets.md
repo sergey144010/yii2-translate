@@ -15,11 +15,13 @@ provided in Yii.
 Часто желательно управлять ресурсами программно. Для примера, когда вы используете виджет [[yii\jui\DatePicker]] на странице, это автоматически включит необходимые и CSS и JavaScript файлы, вместо того чтобы спрашивать вас в ручную найти эти файлы и включить их. И когда Вы обновляете виджет до новой версии, это будет автоматически использовать новую версию файлов ресурса. <i><b>В этом руководстве Вам будет описана вся мощь управления ресурсом возможность способность предоставленная в Yii.</b></i>В этом руководстве Вам будет описана мощная возможность управления ресурсами представленная в Yii.
 
 
-## Asset Bundles <span id="asset-bundles"></span>
+## Asset Bundles Комплект ресурсов<span id="asset-bundles"></span>
 
 Yii manages assets in the unit of *asset bundle*. An asset bundle is simply a collection of assets located
 in a directory. When you register an asset bundle in a [view](structure-views.md), it will include the CSS and
 JavaScript files in the bundle in the rendered Web page.
+
+Yii управляет ресурсами в единице *asset bundle*. Комплект ресурсов это простая коллекция/набор ресурсов расположенных в директории. Когда Вы регистрируете комплект ресурсов в [представлении](structure-views.md), это включит набор CSS и JavaScript файлов в отображаемую Web страницу.
 
 
 ## Defining Asset Bundles <span id="defining-asset-bundles"></span>
